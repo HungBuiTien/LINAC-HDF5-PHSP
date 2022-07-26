@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\MySimulation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\ActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\BREMSPEProcess.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\DetectorMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\PhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\PhysicsListMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\ActionInitialization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\BREMSPEProcess.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\DetectorMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\PhysicsList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\PhysicsListMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{421AE8DD-C3D0-316F-B99A-F158C2665EE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{197D5A84-B60C-3EEA-9270-9BBA0FE9EB37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

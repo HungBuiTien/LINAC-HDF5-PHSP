@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\bld\Release\MySimulation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\bld\x64\release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>D:\MC_Applications\TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-\LinacHead\bld\ZERO_CHECK.proj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

@@ -1,0 +1,10 @@
+^D:\MC_APPLICATIONS\TRUEBEAMSTX-EBT3-2SEG-HDF5-GEANT4-\LINACHEAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead -BD:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld --check-stamp-file D:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+D:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld/CMakeFiles/MySimulation.dir
+D:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld/CMakeFiles/CBCT.dir
+D:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld/CMakeFiles/ALL_BUILD.dir
+D:/MC_Applications/TrueBeamSTX-EBT3-2Seg-HDf5-Geant4-/LinacHead/bld/CMakeFiles/ZERO_CHECK.dir

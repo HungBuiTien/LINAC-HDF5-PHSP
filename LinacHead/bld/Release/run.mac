@@ -1,0 +1,7 @@
+/run/printProgress 1
+
+/GB04/biasing/setSplittingFactor 10
+/GB04/biasing/biasPrimaryOnly false
+/GB04/biasing/biasOnlyOnce    false
+
+/run/beamOn 1000

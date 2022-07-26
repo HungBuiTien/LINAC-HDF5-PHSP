@@ -1,0 +1,19 @@
+/run/verbose 2
+/control/verbose 2
+/random/setSeeds 644559597 23357929
+
+/Phsp/Name TrueBeam
+/Phsp/Zstop 22 cm
+
+/run/printProgress 1
+
+# Physics
+#
+/Physics/setGCut 0.01 mm
+/Physics/setECut 0.01 mm
+/Physics/setPCut 0.01 mm
+
+/Physics/Bremspe_Enabled true
+/Physics/Bremspe_Nsplit 80
+
+/run/beamOn 100000000
