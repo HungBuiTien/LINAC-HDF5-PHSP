@@ -33,7 +33,6 @@ DetectorMessenger::~DetectorMessenger()
 {
     delete H5PhaseSpaceNameCmd;
     delete H5PhaseSpaceZStopCmd;
-    delete NameOfGeomFromTextFileCmd;
     delete H5PhaseSpaceDir;    
     delete NumberOfEventsPerThread_Cmd;
 }
