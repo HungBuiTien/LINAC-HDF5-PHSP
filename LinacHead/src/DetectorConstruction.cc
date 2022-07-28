@@ -35,6 +35,7 @@
 #include"G4IntersectionSolid.hh"
 #include "G4tgbVolumeMgr.hh"
 #include "G4tgrMessenger.hh"
+#include "H5PhaseSpaceWriter.hh"
 
 DetectorConstruction::DetectorConstruction()
 : G4VUserDetectorConstruction(),mSD(0)

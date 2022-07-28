@@ -14,6 +14,7 @@ class G4Material;
 class G4Box;
 class DetectorMessenger;
 class G4tgrMessenger;
+class H5PhaseSpaceWriter;
 
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
