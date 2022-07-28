@@ -31,6 +31,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 #
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+link_directories( /opt/hdf5/lib )
+include_directories( /opt/hdf5/include )
 
 #----------------------------------------------------------------------------
 # Copy all scripts to the build directory,
@@ -45,7 +47,7 @@ file(COPY ${IN_FILES} DESTINATION ${PROJECT_BINARY_DIR})
 # Add the executable, and link it to the Geant4 libraries
 #
 add_executable(MySimulation MySimulation.cc ${sources} ${headers})
-target_link_libraries(MySimulation ${Geant4_LIBRARIES})
+target_link_libraries(MySimulation ${Geant4_LIBRARIES} -lhdf5_cpp -lhdf5)
 
 #----------------------------------------------------------------------------
 # For internal Geant4 use - but has no effect if you build this
