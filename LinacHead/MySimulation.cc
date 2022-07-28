@@ -8,11 +8,9 @@
 
 #include <iostream>
 
-#ifdef G4MULTITHREADED
 #include "G4MTRunManager.hh"
-#else
 #include "G4RunManager.hh"
-#endif
+
 
 #include "G4Types.hh"
 #include "Randomize.hh"
@@ -34,13 +32,13 @@ int main(int argc, char** argv)
 {
 	G4Random::setTheEngine(new CLHEP::RanecuEngine);
 
-	//#ifdef G4MULTITHREADED
-	//	G4MTRunManager* runManager = new G4MTRunManager;
-	//	int _numberOfThreads=G4Threading::G4GetNumberOfCores();
-	//	runManager->SetNumberOfThreads( _numberOfThreads);
-	//#else
+	#ifdef G4MULTITHREADED
+	G4MTRunManager* runManager = new G4MTRunManager;
+	int _numberOfThreads=G4Threading::G4GetNumberOfCores();
+	runManager->SetNumberOfThreads( _numberOfThreads);
+	#else
 		G4RunManager* runManager = new G4RunManager;
-	//#endif
+	#endif
 	
 	// Detect interactive mode (if no macro provided) and define UI session
     //
