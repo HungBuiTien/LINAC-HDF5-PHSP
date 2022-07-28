@@ -9,9 +9,9 @@
 #include <iostream>
 
 #ifdef G4MULTITHREADED
-	#include "G4MTRunManager.hh"
+#include "G4MTRunManager.hh"
 #else
-	#include "G4RunManager.hh"
+#include "G4RunManager.hh"
 #endif
 
 #include "G4Types.hh"
