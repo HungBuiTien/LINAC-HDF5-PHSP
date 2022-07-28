@@ -58,7 +58,6 @@ DetectorConstruction        * fDetectorConstruction;
 G4UIcmdWithADoubleAndUnit   * H5PhaseSpaceZStopCmd;
 G4UIcmdWithAString          * H5PhaseSpaceNameCmd;
 G4UIdirectory               * H5PhaseSpaceDir;  
-G4UIcmdWithAString          * NameOfGeomFromTextFileCmd;
 G4UIcmdWithAnInteger        * NumberOfEventsPerThread_Cmd; 
 };
 #endif

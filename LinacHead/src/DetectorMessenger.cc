@@ -21,9 +21,6 @@ DetectorMessenger::DetectorMessenger(DetectorConstruction* pDetectorConstruction
     H5PhaseSpaceNameCmd        = new G4UIcmdWithAString("/Parameters/H5PhaseSpaceName",this);
     H5PhaseSpaceNameCmd ->SetParameterName("H5PhaseSpaceName",false);
     H5PhaseSpaceNameCmd ->SetDefaultValue("example");
-    NameOfGeomFromTextFileCmd  = new G4UIcmdWithAString("/Parameters/NameOfGeomFromTextFile",this);
-    NameOfGeomFromTextFileCmd ->SetParameterName("NameOfGeomFromTextFile",false);
-    NameOfGeomFromTextFileCmd ->SetDefaultValue("");
 
     NumberOfEventsPerThread_Cmd = new G4UIcmdWithAnInteger("/Parameters/NumberOfEventsPerThread",this);  
     NumberOfEventsPerThread_Cmd->SetGuidance("Set NumberOfEventsPerThread.");
@@ -51,11 +48,7 @@ void DetectorMessenger::SetNewValue(G4UIcommand* command,G4String newValue)
     {
         fDetectorConstruction->SetH5PhaseSpaceName(newValue);
     }
-    else  if( command == NameOfGeomFromTextFileCmd )    
-    {
-        fDetectorConstruction->SetNameOfGeomFromTextFile(newValue);
-    }
-    else  if( command == NumberOfEventsPerThread_Cmd )
+        else  if( command == NumberOfEventsPerThread_Cmd )
     {
         fDetectorConstruction-> SetNumberOfEventsPerThread(NumberOfEventsPerThread_Cmd->GetNewIntValue(newValue));
     }        
